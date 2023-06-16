@@ -1,5 +1,3 @@
-# cari-in-mobile
-=======
 # Cari-in APP
 apps that can help you find tourist destinations in bali
 
@@ -19,9 +17,7 @@ programming languages and libraries or other tools that we used as follows:
 ![Tampilan-Loading-Awal](https://github.com/cari-in/cari-in-mobile/assets/73919529/16d2db6f-ee47-41a8-8aa6-adc834ba0140)
 ![Tampilan-Get-Started](https://github.com/cari-in/cari-in-mobile/assets/73919529/e71f7164-46e6-4009-bb14-a21d3fc63f9f)
 ![Main-Features](https://github.com/cari-in/cari-in-mobile/assets/73919529/37dce85b-fa3d-4b42-86f5-23216587a21d)
-![Recommendation](https://github.com/cari-in/cari-in-mobile/assets/73919529/234a0a2c-e693-4aaa-85a5-6f8feebfcbba)
-
-
+![Recommendation](https://github.com/cari-in/cari-in-mobile/assets/72028909/82ebd337-be40-4ab5-9d1c-c47675af34a2)
 
 
 
