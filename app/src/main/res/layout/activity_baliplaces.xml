@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey"
+    tools:context=".activity.Baliplaces">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="Adventure is out there let us help you find it."
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="Where do you want to Vacation?\n Select Region Here"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/Bangli"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/Badung"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="120dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/roboto_reguler"
+        android:text="Badung"
+        android:textColor="@color/lightgrey"
+        app:layout_constraintBottom_toBottomOf="@+id/Bangli"
+        app:layout_constraintEnd_toStartOf="@+id/Bangli"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Bangli" />
+
+    <Button
+        android:id="@+id/Bangli"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/roboto_reguler"
+        android:text="Bangli"
+        android:textColor="@color/lightgrey"
+        app:layout_constraintBottom_toTopOf="@+id/Karangasem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Badung"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/Buleleng"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="109dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/roboto_reguler"
+        android:gravity="center"
+        android:text="Buleleng"
+        android:textColor="@color/lightgrey"
+        app:layout_constraintBottom_toTopOf="@+id/Klungkung"
+        app:layout_constraintEnd_toStartOf="@+id/Karangasem"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/Denpasar"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="193dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/roboto_reguler"
+        android:text="Denpasar"
+        android:textColor="@color/lightgrey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Tabanan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/Gianyar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/roboto_reguler"
+        android:text="Gianyar"
+        android:textColor="@color/lightgrey"
+        app:layout_constraintBottom_toTopOf="@+id/Jembrana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Klungkung"
+        app:layout_constraintTop_toBottomOf="@+id/Tabanan" />
+
+    <Button
+        android:id="@+id/Jembrana"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/roboto_reguler"
+        android:text="Jembrana"
+        android:textColor="@color/lightgrey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Gianyar" />
+
+    <Button
+        android:id="@+id/Karangasem"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/roboto_reguler"
+        android:text="Karangasem"
+        android:textColor="@color/lightgrey"
+        app:layout_constraintBottom_toTopOf="@+id/Tabanan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Buleleng"
+        app:layout_constraintTop_toBottomOf="@+id/Bangli" />
+
+    <Button
+        android:id="@+id/Klungkung"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="120dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/roboto_reguler"
+        android:text="Klungkung"
+        android:textColor="@color/lightgrey"
+        app:layout_constraintBottom_toBottomOf="@+id/Gianyar"
+        app:layout_constraintEnd_toStartOf="@+id/Gianyar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Gianyar" />
+
+    <Button
+        android:id="@+id/Tabanan"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/darkgrey"
+        android:fontFamily="@font/roboto_reguler"
+        android:text="Tabanan"
+        android:textColor="@color/lightgrey"
+        app:layout_constraintBottom_toTopOf="@+id/Gianyar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Denpasar"
+        app:layout_constraintTop_toBottomOf="@+id/Karangasem" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
