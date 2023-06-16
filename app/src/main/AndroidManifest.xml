@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CariinApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".result.button.bangli.banglispot"
+            android:exported="false"
+            android:label="@string/title_activity_banglispot"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".result.button.bangli.banglitreckking"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".result.button.badung.badungmuseum"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".result.button.badung.badungrestaurant"
+            android:exported="false"
+            android:label="@string/title_activity_badungrestaurant"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".result.button.badung.badungmonumen"
+            android:exported="false" />
+        <activity
+            android:name=".result.button.badung.badungperkotaansov"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".result.denpasar.resultdenpasarswim"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".result.denpasar.resultdenpasar"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".result.button.resultpanorama.PerkotaanResult"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".result.button.resultpanorama.GunungResult"
+            android:exported="false"
+            android:label="@string/title_activity_gunung_result"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".result.button.resultpanorama.PantaiResult"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".result.button.Sungai"
+            android:exported="false" />
+        <activity
+            android:name=".result.button.Perkebunan"
+            android:exported="false" />
+        <activity
+            android:name=".result.button.Gunung"
+            android:exported="false" />
+        <activity
+            android:name=".result.button.Pantai"
+            android:exported="false" />
+        <activity
+            android:name=".result.button.Perkotaan"
+            android:exported="false" />
+        <activity
+            android:name=".result.Panorama"
+            android:exported="false" />
+        <activity
+            android:name=".component.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".component.Wishlist"
+            android:exported="false" />
+        <activity
+            android:name=".result.button.resultpanorama.Result"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Baliplaces"
+            android:exported="false"
+            android:theme="@style/Base.Theme.CariinApp" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash.GetStart"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".splash.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

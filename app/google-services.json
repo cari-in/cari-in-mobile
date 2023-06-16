@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1032811047942",
+    "firebase_url": "https://cari-in-1-default-rtdb.firebaseio.com",
+    "project_id": "cari-in-1",
+    "storage_bucket": "cari-in-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032811047942:android:f53136d5035af9d7d32787",
+        "android_client_info": {
+          "package_name": "com.example.cariinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032811047942-3o6jddlegr0ljdlapl8f98r5gfl0qj16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxbJ1-1iuMY1GXlup4twn7j0J6qXpWG6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032811047942-3o6jddlegr0ljdlapl8f98r5gfl0qj16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
