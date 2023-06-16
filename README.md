@@ -14,11 +14,10 @@ programming languages and libraries or other tools that we used as follows:
 #### UI/UX Design : [Cari-in Design](https://www.figma.com/file/wV42XxMfAt3PBUQa5QngTu/Untitled?type=design&node-id=0%3A1&t=eIcBUTgWlhboTnN5-1)
 
 ### Screenshots
-![Tampilan-Loading-Awal](https://github.com/cari-in/cari-in-mobile/assets/73919529/16d2db6f-ee47-41a8-8aa6-adc834ba0140  | width=100)
-![Tampilan-Get-Started](https://github.com/cari-in/cari-in-mobile/assets/73919529/e71f7164-46e6-4009-bb14-a21d3fc63f9f  | width=100)
-![Main-Features](https://github.com/cari-in/cari-in-mobile/assets/73919529/37dce85b-fa3d-4b42-86f5-23216587a21d  | width=100)
-![Recommendation](https://github.com/cari-in/cari-in-mobile/assets/72028909/82ebd337-be40-4ab5-9d1c-c47675af34a2  | width=100)
-
+<img src="https://github.com/cari-in/cari-in-mobile/assets/73919529/16d2db6f-ee47-41a8-8aa6-adc834ba0140" width="200"></img>
+<img src="https://github.com/cari-in/cari-in-mobile/assets/73919529/e71f7164-46e6-4009-bb14-a21d3fc63f9f" width="200"></img>
+<img src="https://github.com/cari-in/cari-in-mobile/assets/73919529/37dce85b-fa3d-4b42-86f5-23216587a21d" width="200"></img>
+<img src="https://github.com/cari-in/cari-in-mobile/assets/72028909/82ebd337-be40-4ab5-9d1c-c47675af34a2" width="200"></img>
 
 
 
