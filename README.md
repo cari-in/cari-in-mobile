@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # cari-in-mobile
 =======
 # Cari-in APP
@@ -35,4 +34,3 @@ programming languages and libraries or other tools that we used as follows:
 
 ### Update Features
 Comming soon to be announced
->>>>>>> cari
