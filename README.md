@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# cari-in-mobile
+=======
 # Cari-in APP
 apps that can help you find tourist destinations in bali
 
@@ -32,3 +35,4 @@ programming languages and libraries or other tools that we used as follows:
 
 ### Update Features
 Comming soon to be announced
+>>>>>>> cari
